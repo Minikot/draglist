@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_to_different_lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Разные Layout / View" />
+
+    <Button
+        android:id="@+id/btn_buttons_clicks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Buttons and Clicks" />
+
+    <Button
+        android:id="@+id/btn_to_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Список RecyclerView" />
+
+    <Button
+        android:id="@+id/btn_to_activity_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Динамическое добавление данных в список" />
+
+    <Button
+        android:id="@+id/btn_to_data_exchange_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Обмен данными между Activity" />
+
+    <Button
+        android:id="@+id/btn_new_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Фрагменты" />
+
+    <Button
+        android:id="@+id/btn_shared_pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Сохранение / Загрузка данных" />
+
+    <Button
+        android:id="@+id/btn_add_sample_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Добавление экземпляра данных в View" />
+
+    <Button
+        android:id="@+id/btn_test1_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Тест списка" />
+
+    <Button
+        android:id="@+id/btn_test2_swipe_drag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Тест списка Swipe/Drag" />
+
+    <Button
+        android:id="@+id/btn_test3_move_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Тест управляемый список" />
+
+</LinearLayout>

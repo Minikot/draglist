@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DragList</string>
+
+    <string name="RelativeLayout">RelativeLayout (Выравнивание относительно Layout):
+        \n 1. android:layout_alignParentStart
+        \n 2. android:layout_alignParentTop
+        \n 3. android:layout_alignParentEnd
+        \n 4. android:layout_alignParentBottom
+        \n 5. android:layout_centerHorizontal
+        \n 6. android:layout_centerVertical
+        \n 7. android:layout_centerInParent    </string>
+
+    <string name="RelativeLayout2">RelativeLayout (Выравнивание относительно Объекта):
+        \n 1. android:layout_above
+        \n 2. android:layout_below
+        \n 3. android:layout_toStartOf
+        \n 4. android:layout_toEndOf
+        \n 5. android:layout_alignStart
+        \n 6. android:layout_alignEnd
+        \n 7. android:layout_alignTop
+        \n 8. android:layout_alignBottom
+        \n 9. android:layout_centerInParent    </string>
+</resources>

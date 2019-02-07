@@ -1,0 +1,60 @@
+{
+  "items_name": [
+    {
+      "ic_favorite": "@sample/icon[ic_favorite_empty.xml]",
+      "title": "Bread",
+      "ic_drag": "@sample/icon[ic_drag.xml]"
+    },
+    {
+      "ic_favorite": "@sample/icon[ic_favorite_empty.xml]",
+      "title": "Shoes",
+      "ic_drag": "@sample/icon[ic_drag.xml]"
+    },
+    {
+      "ic_favorite": "@sample/icon[ic_favorite_empty.xml]",
+      "title": "Eeg",
+      "ic_drag": "@sample/icon[ic_drag.xml]"
+    },
+    {
+      "ic_favorite": "@sample/icon[ic_favorite_empty.xml]",
+      "title": "Sugar",
+      "ic_drag": "@sample/icon[ic_drag.xml]"
+    },
+    {
+      "ic_favorite": "@sample/icon[ic_favorite_empty.xml]",
+      "title": "Nails",
+      "ic_drag": "@sample/icon[ic_drag.xml]"
+    }
+  ],
+
+  "shops": [
+    {
+      "title": "Metro",
+      "items": "21"
+    },
+    {
+      "title": "Ashan",
+      "items": "5"
+    },
+    {
+      "title": "Novus",
+      "items": "10"
+    },
+    {
+      "title": "Mikki",
+      "items": "1"
+    },
+    {
+      "title": "ATB",
+      "items": "5"
+    },
+    {
+      "title": "H&M",
+      "items": "2"
+    },
+    {
+      "title": "Leroy Merlin",
+      "items": "8"
+    }
+  ]
+}

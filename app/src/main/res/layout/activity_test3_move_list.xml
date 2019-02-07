@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/Text20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="- Управляемый список список -" />
+
+    <RelativeLayout
+        android:id="@+id/rl_et_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_below="@id/tv_title"
+        >
+
+        <EditText
+            android:id="@+id/et_test3_data"
+            style="@style/Text20"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_test3_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_add" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_et_add_data"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/layout_gradient" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/rl_et_add_data"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/layout_gradient_divider" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_test3_changeable_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/v_divider"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        tools:itemCount="7"
+        tools:listitem="@layout/recycler_view_item"/>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_new_data"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="top"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:textColor="@color/color_text"
+        />
+
+    <Button
+        android:id="@+id/btn_add_data_to_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Добавить в список"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_data_position"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="@color/color_text"
+            tools:text="24"
+            />
+
+        <Button
+            android:id="@+id/btn_clear_data_by_position"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:text="Удалить позицию"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_clear_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Очистить список"/>
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv_dynamic_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
